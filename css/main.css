@@ -102,6 +102,53 @@ textarea {
 
 
    /*KEVIN*/
+/*COMMON RULES*/
+
+/*COMMON RULES*/
+/*NAVBAR*/
+.navbar
+{
+  color: white;
+  background-color: #1D1D1E;
+}
+.fa-caret-down
+{
+  color: white;
+}
+/*NAVBAR*/
+
+/*DIV GRAND BLEU*/
+.grandBleu
+{
+background: url(../img/grandBleuImg.jpeg) center;
+background-size: cover;
+height: 65vh;
+}
+.love
+{
+background: url(../img/love.jpeg) center;
+background-size: cover;
+height: 65vh;
+}
+.table
+{
+background: url(../img/table.jpeg) center;
+background-size: cover;
+height: 65vh;
+margin-bottom: 0;
+}
+.demon
+{
+background: url(../img/demon.jpeg) center;
+background-size: cover;
+height: 65vh;
+}
+.blocBlanc
+{
+  background-color: white;
+  width: 50%;
+  margin: auto;
+}
 
 
    /*END OF KEVIN*/
