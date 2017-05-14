@@ -143,14 +143,58 @@ background: url(../img/demon.jpeg) center;
 background-size: cover;
 height: 65vh;
 }
+.betes
+{
+background: url(../img/betes.jpeg) center;
+background-size: cover;
+height: 65vh;
+}
+.chiffre
+{
+background: url(../img/chiffres.jpeg) center;
+background-size: cover;
+height: 65vh;
+}
+.blonde
+{
+background: url(../img/blonde.jpeg) center;
+background-size: cover;
+height: 65vh;
+}
+.maxi
+{
+background: url(../img/maxi.jpeg) center;
+background-size: cover;
+height: 65vh;
+}
 .blocBlanc
 {
   background-color: white;
   width: 50%;
   margin: auto;
 }
-
-
+.incontournable h2
+{
+font-size: 28px;
+}
+.var
+{
+background: url(../img/var.jpeg) center;
+background-size: cover;
+height: 65vh;
+}
+.oeuvre
+{
+background: url(../img/oeuvre.jpeg) center;
+background-size: cover;
+height: 65vh;
+}
+.twelve
+{
+background: url(../img/twelve.jpeg) center;
+background-size: cover;
+height: 65vh;
+}
    /*END OF KEVIN*/
 
 
