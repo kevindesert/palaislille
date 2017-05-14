@@ -110,91 +110,186 @@ textarea {
 {
   color: white;
   background-color: #1D1D1E;
+  width: 100%;
+}
+.navbar ul
+{
+  list-style-type: none;
+  height: 100vh;
+  width: 100%;
+}
+.navbar ul li
+{
+  border: 1px solid white;
+  height: 62.5px;
+  margin-bottom: 22.5px;
+  background-color: rgba(255,255,255,0.9);
+}
+.navbar a
+{
+  color: black;
+}
+.navbar a:hover
+{
+  color: red;
+  text-decoration: none;
+}
+.navbar span
+{
+  font-size: 20px;
+  font-weight: bold;
 }
 .fa-caret-down
 {
   color: white;
 }
+.navbar figure, .navbar p, .navbar i
+{
+  margin: auto;
+}
+.navbar p
+{
+  font-size: 14px;
+  font-weight: bold;
+}
 /*NAVBAR*/
 
-/*DIV GRAND BLEU*/
+
+
+
+
+
+
+
+
+/*GALERIE PHOTO*/
 .grandBleu
 {
 background: url(../img/grandBleuImg.jpeg) center;
 background-size: cover;
-height: 65vh;
+height: 55vh;
+display: flex;
 }
 .love
 {
 background: url(../img/love.jpeg) center;
 background-size: cover;
-height: 65vh;
+height: 55vh;
+display: flex;
 }
 .table
 {
 background: url(../img/table.jpeg) center;
 background-size: cover;
-height: 65vh;
+height: 55vh;
 margin-bottom: 0;
+display: flex;
 }
 .demon
 {
 background: url(../img/demon.jpeg) center;
 background-size: cover;
-height: 65vh;
+height: 55vh;
+display: flex;
 }
 .betes
 {
 background: url(../img/betes.jpeg) center;
 background-size: cover;
-height: 65vh;
+height: 55vh;
+display: flex;
 }
 .chiffre
 {
 background: url(../img/chiffres.jpeg) center;
 background-size: cover;
-height: 65vh;
+height: 55vh;
+display: flex;
 }
 .blonde
 {
 background: url(../img/blonde.jpeg) center;
 background-size: cover;
-height: 65vh;
+height: 55vh;
+display: flex;
 }
 .maxi
 {
 background: url(../img/maxi.jpeg) center;
 background-size: cover;
-height: 65vh;
+height: 55vh;
+display: flex;
 }
 .blocBlanc
 {
   background-color: white;
-  width: 50%;
+  width: 60%;
+  height: 40%;
   margin: auto;
+}
+.titre
+{
+  font-weight: 600;
+  font-size: 28px;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.fa-clock-o
+{
+  color: grey;
+}
+.texte
+{
+  color: grey;
+  font-size: 14px;
+  width: 80%;
+  display: inline-block;
+}
+/*TITRE LES INCONTOURNABLES*/
+.incontournable
+{
+  height: 20vh;
 }
 .incontournable h2
 {
-font-size: 28px;
+font-size: 24px;
+font-weight: 700;
+text-align: center;
+
 }
+/*TITRE LES INCONTOURNABLES*/
 .var
 {
 background: url(../img/var.jpeg) center;
 background-size: cover;
-height: 65vh;
+height: 55vh;
+display: flex;
 }
 .oeuvre
 {
 background: url(../img/oeuvre.jpeg) center;
 background-size: cover;
-height: 65vh;
+height: 55vh;
+display: flex;
 }
 .twelve
 {
 background: url(../img/twelve.jpeg) center;
 background-size: cover;
-height: 65vh;
+height: 55vh;
+display: flex;
 }
+/*GALERIE PHOTO*/
+
+/*TABLETTE ET MOBILE SELECTION*/
+.tabmob
+{
+  height: 65vh;
+}
+/*TABLETTE ET MOBILE SELECTION*/
+
+
+
    /*END OF KEVIN*/
 
 
