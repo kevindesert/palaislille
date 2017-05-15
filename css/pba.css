@@ -15,8 +15,13 @@
 	font-family: "pba";
 	font-size: 30px;
 	font-style: normal;
+<<<<<<< HEAD
 	margin-left: 20px;
 		color: white;
+=======
+	margin-left: 0;
+		color: #333;
+>>>>>>> d943555342d2cdb46b39fc887da51f9979af6b6f
 }
 
 .flaticon-space:before {
