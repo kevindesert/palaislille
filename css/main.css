@@ -113,9 +113,10 @@ body {
     font-family: "Lovelo-Black";
 }
 
-img {
+
+/*img {
     width: 100%;
-}
+}*/
 
 .pba {
     background: url(../img/carousel1.jpg);
@@ -289,7 +290,8 @@ img {
 }
 
 .pub a .icon {
-  margin-right: 3%;
+    margin-right: 3%;
+    color: white;
 }
 
 .pub p {
@@ -297,15 +299,15 @@ img {
 }
 
 .pub a:hover {
-  border: 5px solid #D8383E;
+    border: 5px solid #D8383E;
 }
 
 .pub a:hover p {
-  color: #D8383E;
+    color: #D8383E;
 }
 
 .pub p:hover {
-  color: #D8383E;
+    color: #D8383E;
 }
 
 .pub a:hover .icon {
@@ -318,21 +320,21 @@ img {
 }
 
 .instapub {
-  display: flex;
-  margin-top: 4%;
-width: 40%;
-justify-content: center;
+    display: flex;
+    margin-top: 4%;
+    width: 40%;
+    justify-content: center;
 }
 
 .instapub .icon {
-  font-size: 55px;
-  margin-right: 3%;
+    font-size: 55px;
+    margin-right: 3%;
 }
 
 .instapub p {
-  margin: 0px;
-  display: flex;
-align-items: center;
+    margin: 0px;
+    display: flex;
+    align-items: center;
 }
 
 .container-fluid .row .art1 {
@@ -772,7 +774,7 @@ a .icon:hover {
         font-size: 7px;
     }
     .pba .chevrondown:hover {
-        color: red;
+        color: #D8383E;
     }
     .pba article {
         width: 35%;
@@ -839,7 +841,8 @@ a .icon:hover {
     }
     .footerdeskonly .icon {
         font-size: 20px;
-        margin-top: 5%:
+        margin-top: 5%;
+        color: white;
     }
     .footerdeskonly a, .footerdeskonly p {
         color: white;
@@ -862,31 +865,27 @@ a .icon:hover {
         display: flex;
         justify-content: space-between;
     }
-
     .linefooter {
-      width: 80%;
-display: flex;
-justify-content: space-between;
-margin: auto;
-padding-top: 2%;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        padding-top: 2%;
     }
-
     .linefooter a {
-      display: flex;
-      align-items: center;
-      color: white;
+        display: flex;
+        align-items: center;
+        color: white;
     }
-
-    .linefooter a:hover .icon  {
-      color: #D8383F;
+    .linefooter a:hover .icon {
+        color: #D8383F;
     }
-
     .linefooter a:hover {
-      color: #D8383F;
+        color: #D8383F;
     }
     .linefooter p {
-      margin: 0px;
-      padding-left: 9px;
+        margin: 0px;
+        padding-left: 9px;
     }
 }
 
@@ -897,51 +896,51 @@ padding-top: 2%;
 
 /*KEVIN*/
 
-/*COMMON RULES*/
-.nomobile {
-    display: none;
-}
-
-/*COMMON RULES*/
-
 /*NAVBAR*/
 .noborder {
     border: 0px;
     border-radius: 0px;
 }
-.navbar {
+.navbarbar {
     color: white;
     background-color: #1D1D1E;
     width: 100%;
 }
-.navbar ul {
+.navbarbar ul {
     list-style-type: none;
     height: 100vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
 }
-.navbar ul li {
+.navbarbar ul li {
     border: 1px solid white;
     height: 62.5px;
     margin-bottom: 22.5px;
+    background-color: white;
+    width: 80%;
 }
-.navbar a {
+.navbarbar a {
     color: black;
 }
-.navbar a:hover {
-    color: red;
+.navbarbar a:hover {
+    color: #D8383E;
     text-decoration: none;
 }
-.navbar span {
+.navbarbar span {
     font-size: 20px;
     font-weight: bold;
 }
 .fa-caret-down {
     color: white;
 }
-.navbar figure, .navbar p, .navbar i {
+.navbarbar figure, .navbarbar p, .navbarbar i {
     margin: auto;
 }
-.navbar p {
+.navbarbar p {
     font-size: 14px;
     font-weight: bold;
 }
@@ -1018,16 +1017,6 @@ padding-top: 2%;
 }
 
 /*TITRE LES INCONTOURNABLES*/
-.incontournable {
-    height: 20vh;
-}
-.incontournable h2 {
-    font-size: 24px;
-    font-weight: 700;
-    text-align: center;
-}
-
-/*TITRE LES INCONTOURNABLES*/
 .var {
     background: url(../img/var.jpeg) center;
     background-size: cover;
@@ -1059,12 +1048,12 @@ padding-top: 2%;
     margin: auto;
 }
 .tabmob h3, .tabmob a {
-    color: red;
+    color: #D8383E;
     font-size: 16px;
     text-align: center;
 }
 .tabmob a {
-    border: 1px solid red;
+    border: 1px solid #D8383E;
     width: 90%;
     height: 20%;
     margin: auto;
@@ -1072,6 +1061,9 @@ padding-top: 2%;
 .tabmob a:hover {
     text-decoration: none;
     color: white;
+}
+.nomobile {
+    display: none;
 }
 
 /*TABLETTE ET MOBILE SELECTION*/
@@ -1087,6 +1079,16 @@ padding-top: 2%;
     .menu {
         width: 100%;
         display: flex;
+    }
+
+    .menu h2 {
+        text-align: center;
+        border: 1px solid white;
+        height: 20%;
+        background-color: white;
+        margin-top: 90%;
+        font-size: 28px;
+        padding: 1em;
     }
 
     .menu article {
@@ -1120,190 +1122,89 @@ padding-top: 2%;
     }
     /*NAVBAR DESKTOP END*/
 
+    .galerie {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .blocBlanc {
+        margin: auto;
+    }
+
     .grandBleu, .ta, .love, .demon, .betes, .chiffre, .blonde, .maxi {
-        width: 24%;
+        width: 25%;
         display: inline-block;
-    }
-<<<<<<< HEAD
-    /*TITRE LES INCONTOURNABLES*/
-
-    .incontournable {
-        height: 20vh;
-    }
-
-    .incontournable h2 {
-        font-size: 24px;
-        font-weight: 700;
-        text-align: center;
-    }
-    /*TITRE LES INCONTOURNABLES*/
-
-    .var {
-        background: url(../img/var.jpeg) center;
-        background-size: cover;
-        height: 55vh;
-        display: flex;
-    }
-
-    .oeuvre {
-        background: url(../img/oeuvre.jpeg) center;
-        background-size: cover;
-        height: 55vh;
-        display: flex;
-    }
-
-    .twelve {
-        background: url(../img/twelve.jpeg) center;
-        background-size: cover;
-        height: 55vh;
-        display: flex;
-    }
-    /*GALERIE PHOTO*/
-    /*TABLETTE ET MOBILE SELECTION*/
-
-    .tabmob {
-        height: 40vh;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .tabmob figure {
-        margin: auto;
-    }
-
-    .tabmob h3, .tabmob a {
-        color: red;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .tabmob a {
-        border: 1px solid red;
-        width: 90%;
-        height: 20%;
-        margin: auto;
-    }
-
-    .tabmob a:hover {
-        text-decoration: none;
-        color: white;
-    }
-    /*TABLETTE ET MOBILE SELECTION*/
-
-    @media (min-width: 1024px) {
-        .nodesktop {
-            display: none;
-        }
-        .nomobile {
-            display: block;
-        }
-        .menu {
-            width: 100%;
-            display: flex;
-        }
-        .menu article {
-            width: 20%;
-            height: 80vh;
-        }
-        .article1 {
-            background: url(../img/desktop/indi.jpeg) center;
-            background-size: cover;
-        }
-        .article2 {
-            background: url(../img/desktop/grou.jpeg) center;
-            background-size: cover;
-        }
-        .article3 {
-            background: url(../img/desktop/fam.jpeg) center;
-            background-size: cover;
-        }
-        .article4 {
-            background: url(../img/desktop/etu.jpeg) center;
-            background-size: cover;
-        }
-        .article5 {
-            background: url(../img/desktop/ensei.jpeg) center;
-            background-size: cover;
-        }
-        /*NAVBAR DESKTOP END*/
-        .galerie
-        {
-          display: flex;
-          flex-wrap: wrap;
-
-        }
-        .blocBlanc
-        {
-          margin: auto;
-        }
-        .grandBleu, .ta, .love, .demon, .betes, .chiffre, .blonde, .maxi {
-            width: 25%;
-            display: inline-block;
-            margin: 0;
-        }
-    }
-    /*END OF KEVIN*/
-    /* Start Aaron */
-    /* Start All */
-
-    .w100 {
-        width: 100%;
-        margin: 0px;
-    }
-
-    .container-fluid .row figure {
-        min-height: 0px;
-    }
-
-    .fa-caret-down {
-        color: black;
-    }
-    /* End All */
-    /* Start Agenda */
-
-    .flaticon-uniE901 {
-        font-size: 37.5px;
-    }
-
-    .fig {
-        width: 100%;
-        height: 274px;
         margin: 0;
     }
 
-    .fig img {
+    .incontournablee {
         width: 100%;
-        height: 100%;
+        display: inline-block;
+        text-align: center;
     }
 
-    .h2-1 {
-        font-size: 14px;
+    .var, .oeuvre, .twelve {
+        width: 33.3%;
     }
+}
 
-    .select-1 {
-        margin: 20px;
-        border: 5px black solid;
-    }
+/*END OF KEVIN*/
 
-    .actu-list-agenda {
-        padding-left: 55px;
-        padding-right: 55px;
-    }
+/* Start Aaron */
 
-    .font-33px {
-        font-size: 33px;
-    }
+/* Start All */
+.w100 {
+    width: 100%;
+    margin: 0px;
+}
+.container-fluid .row figure {
+    min-height: 0px;
+}
+.fa-caret-down {
+    color: black;
+}
 
-    .font-26px {
-        font-size: 26px;
-    }
+/* End All */
 
-    .violet {
-        color: #D3336C;
-    }
-    /* End Agenda */
-    /* End Aaron */
-    /* ==========================================================================
+/* Start Agenda */
+.flaticon-uniE901 {
+    font-size: 37.5px;
+}
+.fig {
+    width: 100%;
+    height: 274px;
+    margin: 0;
+}
+.fig img {
+    width: 100%;
+    height: 100%;
+}
+.h2-1 {
+    font-size: 14px;
+}
+.select-1 {
+    margin: 20px;
+    border: 5px black solid;
+}
+.actu-list-agenda {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.font-33px {
+    font-size: 33px;
+}
+.font-26px {
+    font-size: 26px;
+}
+.violet {
+    color: #D3336C;
+}
+
+/* End Agenda */
+
+/* End Aaron */
+
+/* ==========================================================================
 =======
 }
 
