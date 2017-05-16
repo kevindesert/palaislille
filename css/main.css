@@ -100,7 +100,7 @@ textarea {
    ========================================================================== */
 
 
-/*YOUNESS*/
+/*COMMON RULES*/
 
 @font-face {
     font-family: "Lovelo-Black";
@@ -116,6 +116,12 @@ body {
 img {
     width: 100%;
 }
+
+
+/*COMMON RULES*/
+
+
+/*------------------------------------YOUNESS-----------------------------------*/
 
 .navbar {
     background-color: black;
@@ -540,67 +546,6 @@ a:hover {
     color: black;
 }
 
-/* Start Aaron */
-/* Start All */
-  .w100 {
-    width: 100%;
-    margin: 00;
-  }
-
-  .no-phone {
-    display: none;
-  }
-/* End All */
-
-/* Start Agenda */
-.flaticon-uniE901 {
-  font-size: 37.5px;
-}
-
-.fig {
-  width: 100%;
-  height: 274px;
-  margin: 0;
-  margin-top: 25px;
-}
-
-.fig img {
-  width: 100%;
-  height: 100%;
-}
-
-.h2-1 {
-  font-size: 14px;
-}
-
-.select-1 {
-  margin: 20px;  
-  border: 5px black solid;
-}
-
-.actu-list-agenda {
-  padding-left: 27.5px;
-  padding-right: 27.5px;
-  font-family: "novecento_widenormal";
-}
-
-.font-33px {
-  font-size: 16px;
-}
-
-.font-26px {
-  font-size: 12px;
-.actus a:hover {
-    text-decoration: none;
-    color: #D8383F;
-    border: 3px solid #D8383F;
-}
-
-.actus a:hover .icon {
-    text-decoration: none;
-    color: #D8383F;
-}
-
 footer {
     min-height: 400px;
     background-color: #1D1D1E;
@@ -1010,20 +955,26 @@ a .icon:hover {
     }
 }
 
-/*END OF YOUNESS*/
 
-/*KEVIN*/
+/*------------------------------------END OF YOUNESS-----------------------------------*/
+
+
+/*------------------------------------KEVIN-----------------------------------*/
+
 
 /*NAVBAR*/
+
 .noborder {
     border: 0px;
     border-radius: 0px;
 }
+
 .navbarbar {
     color: white;
     background-color: #1D1D1E;
     width: 100%;
 }
+
 .navbarbar ul {
     list-style-type: none;
     height: 100vh;
@@ -1034,6 +985,7 @@ a .icon:hover {
     justify-content: center;
     padding: 0;
 }
+
 .navbarbar ul li {
     border: 1px solid white;
     height: 62.5px;
@@ -1041,117 +993,141 @@ a .icon:hover {
     background-color: white;
     width: 80%;
 }
+
 .navbarbar a {
     color: black;
 }
+
 .navbarbar a:hover {
     color: #D8383E;
     text-decoration: none;
 }
+
 .navbarbar span {
     font-size: 20px;
     font-weight: bold;
 }
+
 .fa .fa-caret-down {
     color: white;
 }
+
 .navbarbar figure, .navbarbar p, .navbarbar i {
     margin: auto;
 }
+
 .navbarbar p {
     font-size: 14px;
     font-weight: bold;
     text-align: center;
 }
 
+
 /*GALERIE PHOTO*/
+
 .grandBleu {
     background: url(../img/grandBleuImg.jpeg) center;
     background-size: cover;
     height: 55vh;
     display: flex;
 }
+
 .love {
     background: url(../img/love.jpeg) center;
     background-size: cover;
     height: 55vh;
     display: flex;
 }
+
 .ta {
     background: url(../img/table.jpeg) center;
     background-size: cover;
     height: 55vh;
     display: flex;
 }
+
 .demon {
     background: url(../img/demon.jpeg) center;
     background-size: cover;
     height: 55vh;
     display: flex;
 }
+
 .betes {
     background: url(../img/betes.jpeg) center;
     background-size: cover;
     height: 55vh;
     display: flex;
 }
+
 .chiffre {
     background: url(../img/chiffres.jpeg) center;
     background-size: cover;
     height: 55vh;
     display: flex;
 }
+
 .blonde {
     background: url(../img/blonde.jpeg) center;
     background-size: cover;
     height: 55vh;
     display: flex;
 }
+
 .maxi {
     background: url(../img/maxi.jpeg) center;
     background-size: cover;
     height: 55vh;
     display: flex;
 }
+
 .blocBlanc {
     background-color: white;
     width: 60%;
     height: 40%;
     margin: auto;
 }
+
 .titre {
     font-weight: 600;
     font-size: 28px;
     margin-top: 5%;
     margin-left: 5%;
 }
+
 .fa-clock-o {
     color: grey;
 }
+
 .texte {
     color: grey;
     font-size: 14px;
     width: 80%;
     display: inline-block;
 }
+
 .incon h2 {
     font-size: 28px;
     text-align: center;
 }
 
+
 /*TITRE LES INCONTOURNABLES*/
+
 .var {
     background: url(../img/var.jpeg) center;
     background-size: cover;
     height: 55vh;
     display: flex;
 }
+
 .oeuvre {
     background: url(../img/oeuvre.jpeg) center;
     background-size: cover;
     height: 55vh;
     display: flex;
 }
+
 .twelve {
     background: url(../img/twelve.jpeg) center;
     background-size: cover;
@@ -1159,51 +1135,58 @@ a .icon:hover {
     display: flex;
 }
 
+
 /*GALERIE PHOTO*/
 
+
 /*TABLETTE ET MOBILE SELECTION*/
+
 .tabmob {
     height: 40vh;
     display: flex;
     flex-direction: column;
 }
+
 .tabmob figure {
     margin: auto;
 }
+
 .tabmob h3, .tabmob a {
     color: #D8383E;
     font-size: 16px;
     text-align: center;
 }
+
 .tabmob a {
     border: 1px solid #D8383E;
     width: 90%;
     height: 20%;
     margin: auto;
 }
+
 .tabmob a:hover {
     text-decoration: none;
     color: white;
 }
+
 .nomobile {
     display: none;
 }
 
+
 /*TABLETTE ET MOBILE SELECTION*/
+
 @media (min-width: 1024px) {
     .nodesktop {
         display: none;
     }
-
     .nomobile {
         display: block;
     }
-
     .menu {
         width: 100%;
         display: flex;
     }
-
     .menu h2 {
         text-align: center;
         border: 1px solid white;
@@ -1213,214 +1196,211 @@ a .icon:hover {
         font-size: 28px;
         padding: 1em;
     }
-
     .menu article {
         width: 20%;
         height: 80vh;
     }
-
     .article1 {
         background: url(../img/desktop/indi.jpeg) center;
         background-size: cover;
     }
-
     .article2 {
         background: url(../img/desktop/grou.jpeg) center;
         background-size: cover;
     }
-
     .article3 {
         background: url(../img/desktop/fam.jpeg) center;
         background-size: cover;
     }
-
     .article4 {
         background: url(../img/desktop/etu.jpeg) center;
         background-size: cover;
     }
-
     .article5 {
         background: url(../img/desktop/ensei.jpeg) center;
         background-size: cover;
     }
     /*NAVBAR DESKTOP END*/
-
     .galerie {
         display: flex;
         flex-wrap: wrap;
     }
-
     .blocBlanc {
         margin: auto;
     }
-
     .grandBleu, .ta, .love, .demon, .betes, .chiffre, .blonde, .maxi {
         width: 25%;
         display: inline-block;
         margin: 0;
     }
-
     .incon {
         display: none;
     }
-
     .var, .oeuvre, .twelve {
         width: 33.3%;
     }
 }
 
-/*END OF KEVIN*/
+
+/*------------------------------------END OF KEVIN-----------------------------------*/
 
 
-/* Start Aaron */
+/*------------------------------------AARON-----------------------------------*/
+
+
 /* Start All */
-  .w100 {
+
+.w100 {
     width: 100%;
     margin: 00;
-  }
+}
 
-  .no-phone {
+.no-phone {
     display: none;
-  }
+}
+
+
 /* End All */
 
+
 /* Start Agenda */
+
 .flaticon-uniE901 {
-  font-size: 37.5px;
+    font-size: 37.5px;
 }
 
 .fig {
-  width: 100%;
-  height: 274px;
-  margin: 0;
-  margin-top: 25px;
+    width: 100%;
+    height: 274px;
+    margin: 0;
+    margin-top: 25px;
 }
 
 .fig img {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .h2-1 {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .select-1 {
-  margin: 20px;  
-  border: 5px black solid;
+    margin: 20px;
+    border: 5px black solid;
 }
 
 .actu-list-agenda {
-  padding-left: 27.5px;
-  padding-right: 27.5px;
-  font-family: "novecento_widenormal";
+    padding-left: 27.5px;
+    padding-right: 27.5px;
+    font-family: "novecento_widenormal";
 }
 
 .font-33px {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .font-26px {
-  font-size: 12px;
-  font-family: "open_sansbold";
+    font-size: 12px;
+    font-family: "open_sansbold";
 }
 
 .violet {
-  color: #D3336C;
+    color: #D3336C;
 }
 
 .rose {
-  color: #935297;
+    color: #935297;
 }
 
 .button-agenda {
-  border: #1D1D1E 3px solid;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  padding: 0 10px;
-  color: #1D1D1E;
-  font-family: "bikobold";
-  font-size: 18px;
-  padding-left: 15px;
-  padding-right: 10px;
-  min-height: 43px;
-  width: auto;
-
+    border: #1D1D1E 3px solid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    color: #1D1D1E;
+    font-family: "bikobold";
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 10px;
+    min-height: 43px;
+    width: auto;
 }
 
 .button-agenda:hover {
-  border-color: #DA4249;
-  color: #DA4249;
-  text-decoration: none;
+    border-color: #DA4249;
+    color: #DA4249;
+    text-decoration: none;
 }
 
 @media (min-width:768px) {
-  .font-33px {
-    font-size: 33px;
-  }
-
-  .font-26px {
-    font-size: 26px;
-  }
-
-  .button-agenda {
-    font-size: 36px;
-    border-width: 4px;
-  }
-
-  .no-phone {
-    display: none;
-  }
+    .font-33px {
+        font-size: 33px;
+    }
+    .font-26px {
+        font-size: 26px;
+    }
+    .button-agenda {
+        font-size: 36px;
+        border-width: 4px;
+    }
+    .no-phone {
+        display: none;
+    }
 }
 
 @media (min-width:1280px) {
-  .flaticon-uniE901 {
-    font-size: 75px;
-  }
-  
-  .h2-1  {
-    font-size: 24px;
-  }
-  
-  .select-agenda {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .div-agenda {
-    margin: 25px 15em;
-    display: flex;
-    justify-content: center;
-  }
-
-  .no-phone {
-    display: block;
-  }
-
-  .border-desktop {
-    border-top: solid 3px #D3336C;
-  }
+    .flaticon-uniE901 {
+        font-size: 75px;
+    }
+    .h2-1 {
+        font-size: 24px;
+    }
+    .select-agenda {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .div-agenda {
+        margin: 25px 15em;
+        display: flex;
+        justify-content: center;
+    }
+    .no-phone {
+        display: block;
+    }
+    .border-desktop {
+        border-top: solid 3px #D3336C;
+    }
 }
-/* End Agenda */ 
-/* End Aaron */
+
+
+/* End Agenda */
+
+
+/*------------------------------------END OF AARON-----------------------------------*/
+
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
 
+
 /*
  * Hide visually and from screen readers
  */
+
 .hidden {
     display: none !important;
 }
+
 
 /*
  * Hide only visually, but have it available for screen readers:
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
+
 .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
@@ -1432,11 +1412,13 @@ a .icon:hover {
     width: 1px;
 }
 
+
 /*
  * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
+
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
     clip: auto;
     height: auto;
@@ -1446,12 +1428,15 @@ a .icon:hover {
     width: auto;
 }
 
+
 /*
  * Hide visually and from screen readers, but maintain layout
  */
+
 .invisible {
     visibility: hidden;
 }
+
 
 /*
  * Clearfix: contain floats
@@ -1464,34 +1449,40 @@ a .icon:hover {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+
 .clearfix:before, .clearfix:after {
     content: " ";
     /* 1 */
-
     display: table;
     /* 2 */
 }
+
 .clearfix:after {
     clear: both;
 }
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 }
+
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
+
 
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    http://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
+
 @media print {
     *, *:before, *:after, *:first-letter, *:first-line {
         background: transparent !important;
@@ -1501,15 +1492,12 @@ a .icon:hover {
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
     a, a:visited {
         text-decoration: underline;
     }
-
     a[href]:after {
         content: " (" attr(href) ")";
     }
-
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
@@ -1517,11 +1505,9 @@ a .icon:hover {
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
     a[href^="#"]:after, a[href^="javascript:"]:after {
         content: "";
     }
-
     pre, blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
@@ -1530,24 +1516,19 @@ a .icon:hover {
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
     thead {
         display: table-header-group;
     }
-
     tr, img {
         page-break-inside: avoid;
     }
-
     img {
         max-width: 100% !important;
     }
-
     p, h2, h3 {
         orphans: 3;
         widows: 3;
     }
-
     h2, h3 {
         page-break-after: avoid;
     }
