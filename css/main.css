@@ -405,7 +405,6 @@ align-items: center;
 }
 
 .applications {
-    height: 300px;
     background-color: #D8383F;
     display: flex;
     flex-direction: column;
@@ -415,6 +414,7 @@ align-items: center;
     color: white;
     width: 100%;
 }
+
 
 .applis {
     min-height: 160px;
@@ -438,8 +438,12 @@ align-items: center;
 
 .iconappli i {
     font-size: 70px;
+    margin-right: 26%;
 }
 
+.applications {
+  height: 277px;
+}
 .applications:hover {
     background-color: white;
     transition: 0.4s;
@@ -605,6 +609,10 @@ footer #horaires {
     color: #D8383F;
 }
 
+.appdesk, .textdesk {
+  display: none;
+}
+
 .applissocial {
     margin-top: 20%;
     display: flex;
@@ -739,7 +747,8 @@ a .icon:hover {
         display: block;
     }
     .applications {
-        height: 70px;
+        min-height: 170px;
+        align-items: center;
     }
     .applis {
         height: 100px;
@@ -823,6 +832,60 @@ a .icon:hover {
     .petittexte .fa-caret-down {
         color: white;
     }
+
+    .applications .appmob {
+      display: none;
+    }
+
+    .applications div {
+      width: 50%;
+    }
+
+    .applications {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .appdesk {
+      display: flex;
+    justify-content: flex-end;
+    }
+
+    .actus {
+      flex-direction: row;
+    }
+
+    .actus a {
+      border: none;
+      font-size: 22px;
+    }
+
+    .actus a:hover {
+      border: none;
+    }
+
+    .appdesk .icon {
+      font-size: 80px;
+      margin-right: 4%;
+    }
+
+    .textdesk {
+      display: flex;
+      justify-content: center;
+      color: white;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .textdesk #spann {
+      font-weight: bolder;
+      font-size: 29px;
+    }
+
+    .textdesk .applications:hover span {
+      color: #D8383F;
+    }
+
     .totalfooter {
         display: none;
     }
