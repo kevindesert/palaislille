@@ -11,7 +11,7 @@
         <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
         <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
 
-        <link rel="stylesheet" type="text/css" href="css/pba.css"> 
+        <link rel="stylesheet" type="text/css" href="css/pba.css">
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="stylesheet" href="css/bootstrap.css">
@@ -27,12 +27,59 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <header>
-        
-          <!-- C'est pas moi qui fait sa. -->
-        
-        </header>
-       
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <a class="navbar-brand" href="#">
+                <figure>
+                    <img src="img/logo_pba.png" alt="">
+                </figure>
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                    <li class="nav-item active">
+                        <a class="nav-link nav-item" href="#">COLLECTIONS <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="visiter.html">VISITER</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="agenda.html">AGENDA</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">INFOS</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                        </form>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <i class="fa fa-caret-down triangle" aria-hidden="true"></i>
+
+                        <a class="nav-link dropdown-.toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Français</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">English</a>
+                            <a clas s="dropdown-item" href="#">Dutch</a>
+                        </div>
+                    </li>
+                    <li id="logolille">
+                        <figure>
+                            <img src="img/logo-lille.svg" alt="">
+                        </figure>
+                    </li>
+                </ul>
+
+            </div>
+
+        </nav>
+<!-- HEADER -->
+
         <div>
           <div class="container-fluid">
             <article class="row">
@@ -42,10 +89,7 @@
 
               <h2 class="h2-1 w100 col-12 text-center">AGENDA DU MUSÉE</h2>
 
-              <figure class="w100 col-12 text-center">
-                <i class="fa fa-caret-down" aria-hidden="true"></i>
-              </figure>
-          
+
               <form class="select-agenda w100 col-12 text-center">
                 <select class="select-1 text-center">
                   <option value="text" selected>TOUTES LES ACTUALITES</option>
@@ -92,7 +136,7 @@
               <a class="actu-list-agenda button-agenda" href="#">en savoir +</a>
             </div>
           </div>
-         
+
           <div class="row div-agenda">
             <figure class="fig col-lg-3">
               <img src="img/agenda3.jpg" alt="femme qui snif je ne sais quoi ?">
@@ -123,9 +167,161 @@
         </div>
 
         <footer>
-        
-          <!-- C'est pas moi qui fait sa. -->
-        
+            <article class="totalfooter">
+                <aside class="infos">
+                    <div id="totalhoraires">
+
+
+                        <div id="horaires">
+
+
+                            <i class="icon flaticon-uniE907"></i>
+                            <span>HORAIRES</span>
+                        </div>
+                        <span id="ouvert">OUVERT : LUN. 14h - 18h,<br> MER. > DIM. 10h - 18h. FERMÉ LE <br> MARDI.<br> TARIF PLEIN 7 € /TARIF RÉDUIT 4 €</span>
+                    </div>
+
+                    <div id="adresse">
+
+                        <i class="icon flaticon-uniE91E"></i>
+                        <span>PLACE DE LA RÉPUBLIQUE 59000 LILLE</span>
+
+                    </div>
+
+                    <a href="">
+                        <i class="icon flaticon-uniE921"></i>
+                        <span>MUSÉE PRIVÉ</span>
+                    </a>
+
+                    <a href="#">
+                        <i class="icon flaticon-uniE927"></i>
+                        <span>PRESSE</span>
+                    </a>
+
+                    <a href="#">
+                        <i class="icon flaticon-uniE92B"></i>
+                        <span>NOUS CONTACTER</span>
+                    </a>
+
+                    <a href="#" class="utilites">
+      MENTIONS LÉGALES
+    </a>
+
+                    <a href="#" class="utilites">
+      LIENS
+    </a>
+
+                    <a href="#" class="utilites">
+      PLANS DE SITE
+    </a>
+
+
+
+
+
+                </aside>
+
+                <aside class="applissocial">
+                    <a href="#"><i class="icon flaticon-uniE934"></i></a>
+                    <a href="#"><i class="icon flaticon-uniE93A"></i></a>
+                    <a href="#"><i class="icon flaticon-uniE91C"></i></a>
+                    <a href="#"><i class="icon flaticon-uniE93C"></i></a>
+                    <a href="#"><i class="icon flaticon-uniE936"></i></a>
+
+
+                </aside>
+
+            </article>
+
+            <article class="footerdeskonly">
+                <aside class="infospratiques">
+                    <i class="fa fa-info" aria-hidden="true"></i>
+                    <a href="#">
+                      <a href="#">
+                    <h5>INFOS PRATIQUES</h5>
+                    </a>
+                    <span id="ouvert">OUVERT : LUN. 14h - 18h,<br> MER. > DIM. 10h - 18h. FERMÉ LE <br> MARDI.<br> TARIF PLEIN 7 € /TARIF RÉDUIT 4 €</span>
+                </aside>
+
+                <aside class="museeprive">
+                    <i class="icon flaticon-uniE921"></i>
+                    <a href="#">
+                    <h5>MUSÉE PRIVÉ</h5>
+                    </a>
+                    <ul>
+                        <a href="#">
+                            <li>DEVENIR MÉCÈNE</li>
+                        </a>
+
+                        <a href="#">
+                            <li>SOUTENIR UN PROJET</li>
+                        </a>
+
+                        <a href="#">
+                            <li>ORGANISER UN ÉVÈNEMENT</li>
+                        </a>
+
+                        <a href="#">
+                            <li>ADHÉRER</li>
+                        </a>
+                    </ul>
+
+                </aside>
+
+                <aside class="presse">
+                    <i class="icon flaticon-uniE927"></i>
+                    <a href="#">
+                    <h5>PRESSE</h5>
+                    </a>
+                    <ul>
+                        <a href="#">
+                            <li>DOSSIER DE PRESSE</li>
+                        </a>
+
+                        <a href="#">
+                            <li>PHOTOTHÈQUE</li>
+                        </a>
+                    </ul>
+
+
+                </aside>
+
+                <aside class="followers">
+                    <i class="icon flaticon-uniE927"></i>
+                    <h5>SUIVEZ-NOUS</h5>
+                    <p>SUR LES RÉSEAUX SOCIAUX</p>
+                    <div class="">
+
+                    <a href="#"><i class="icon flaticon-uniE934"></i></a>
+                    <a href="#"><i class="icon flaticon-uniE93A"></i></a>
+                    <a href="#"><i class="icon flaticon-uniE91C"></i></a>
+                    <a href="#"><i class="icon flaticon-uniE93C"></i></a>
+                    <a href="#"><i class="icon flaticon-uniE936"></i></a>
+                    </div>
+
+
+                </aside>
+            </article>
+
+            <div class="linefooter ">
+              <a href="#">
+                <i class="icon flaticon-uniE92B"></i>
+                <p>Nous contacter</p>
+              </a>
+
+              <a href="#">
+                Mentions légales
+              </a>
+
+              <a href="#">
+                Liens
+              </a>
+
+              <a href="#">
+                Plan du site
+              </a>
+            </div>
+
         </footer>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
