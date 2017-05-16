@@ -843,9 +843,20 @@
             background-size: cover;
         }
         /*NAVBAR DESKTOP END*/
+        .galerie
+        {
+          display: flex;
+          flex-wrap: wrap;
+
+        }
+        .blocBlanc
+        {
+          margin: auto;
+        }
         .grandBleu, .ta, .love, .demon, .betes, .chiffre, .blonde, .maxi {
-            width: 24%;
+            width: 25%;
             display: inline-block;
+            margin: 0;
         }
     }
     /*END OF KEVIN*/
