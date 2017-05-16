@@ -112,6 +112,10 @@ textarea {
     width: 100%;
     margin: 00;
   }
+
+  .no-phone {
+    display: none;
+  }
 /* End All */
 
 /* Start Agenda */
@@ -199,6 +203,40 @@ textarea {
     font-size: 36px;
     border-width: 4px;
   }
+
+  .no-phone {
+    display: none;
+  }
+}
+
+@media (min-width:1280px) {
+  .flaticon-uniE901 {
+    font-size: 75px;
+  }
+  
+  .h2-1  {
+    font-size: 24px;
+  }
+  
+  .select-agenda {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .div-agenda {
+    margin: 25px 15em;
+    display: flex;
+    justify-content: center;
+  }
+
+  .no-phone {
+    display: block;
+  }
+
+  .border-desktop {
+    border-top: solid 3px #D3336C;
+  }
+}
 /* End Agenda */ 
 /* End Aaron */
 
