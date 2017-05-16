@@ -29,37 +29,56 @@
     <!-- YOUNES -->
 
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#">
-    <figure>
-      <img src="img/logo_pba.png" alt="">
-    </figure>
-  </a>
+        <a class="navbar-brand" href="#">
+            <figure>
+                <img src="img/logo_pba.png" alt="">
+            </figure>
+        </a>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-      <li class="nav-item active">
-        <a class="nav-link nav-item" href="#">COLLECTIONS <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="visiter.html">VISITER</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">AGENDA</a>
-      </li>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                <li class="nav-item active">
+                    <a class="nav-link nav-item" href="#">COLLECTIONS <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="visiter.html">VISITER</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">AGENDA</a>
+                </li>
 
-      <li class="nav-item active">
-        <a class="nav-link" href="#">INFOS</a>
-      </li>
-    </ul>
-    <a href="#" id="iconsearch">
-    <i class="fa fa-search" aria-hidden="true"></i>
-    </a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">INFOS</a>
+                </li>
 
-  </div>
-</nav>
+                <li class="nav-item active">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    </form>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <i class="fa fa-caret-down triangle" aria-hidden="true"></i>
+
+                    <a class="nav-link dropdown-.toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Français</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">English</a>
+                        <a clas s="dropdown-item" href="#">Dutch</a>
+                    </div>
+                </li>
+                <li id="logolille">
+                    <figure>
+                        <img src="img/logo-lille.svg" alt="">
+                    </figure>
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
 
     <section class="pba">
         <figure>
@@ -78,6 +97,12 @@
             <h2>VISITER</h2>
             <p>INFOS / PARCOURS / APPLICATIONS</p>
         </article>
+
+        <div class="chevrondown">
+            <a href="#">
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </a>
+        </div>
     </section>
 
 
@@ -147,7 +172,6 @@
     <section class="texteintermediaire">
         <article class="petittexte">
             <h3>4 OEUVRES CLÉS</h3>
-            <i class="icon flaticon-airplane49"></i>
             <p>à découvrir</p>
             <i class="fa fa-caret-down" aria-hidden="true"></i>
         </article>
@@ -155,34 +179,44 @@
 
     <section class="container-fluid">
         <div class="row">
+
             <div class="card col-12 col-lg-3 art1 noborder">
                 <div class="accroche">
-                    <p>FAUX BOSCH, VRAI CHEF D'OEUVRE</p>
-                    <p>Jérôme Bosch</p>
+                    <a href="#">
+                        <p>FAUX BOSCH, VRAI CHEF D'OEUVRE</p>
+                        <p>Jérôme Bosch</p>
+                    </a>
                 </div>
             </div>
 
+
             <div class="card col-12 col-lg-3 art2 noborder">
                 <div class="accroche">
-                    <p>FAUX BOSCH, VRAI CHEF D'OEUVRE</p>
-                    <p>Jérôme Bosch</p>
+                    <a href="#">
+                        <p>FAUX BOSCH, VRAI CHEF D'OEUVRE</p>
+                        <p>Jérôme Bosch</p>
+                    </a>
                 </div>
             </div>
 
             <div class="card col-12  col-lg-3 art3 noborder">
                 <div class="accroche">
-                    <p>FAUX BOSCH, VRAI CHEF D'OEUVRE</p>
-                    <p>Jérôme Bosch</p>
+                    <a href="#">
+                        <p>FAUX BOSCH, VRAI CHEF D'OEUVRE</p>
+                        <p>Jérôme Bosch</p>
+                    </a>
                 </div>
             </div>
 
             <div class="card col-12 col-lg-3 art4 noborder">
-                <a href="#">
-                    <div class="accroche">
+
+                <div class="accroche">
+                    <a href="#">
                         <p>FAUX BOSCH, VRAI CHEF D'OEUVRE</p>
                         <p>Jérôme Bosch</p>
-                    </div>
-                </a>
+                    </a>
+                </div>
+
             </div>
 
         </div>
@@ -194,8 +228,12 @@
             <p>AFFICHER PLUS D'OEUVRES</p>
         </a>
 
+          <div class="instapub">
+
+
         <i class="icon flaticon-uniE91C"></i>
         <p>INSTAGRAM <br># PBALILLE</p>
+        </div>
     </section>
 
     <section class="container-fluid">
@@ -258,51 +296,51 @@
     </section>
 
     <footer>
-    <article class="totalfooter">
-        <aside class="infos">
-            <div id="totalhoraires">
+        <article class="totalfooter">
+            <aside class="infos">
+                <div id="totalhoraires">
 
 
-                <div id="horaires">
+                    <div id="horaires">
 
 
-                    <i class="icon flaticon-uniE907"></i>
-                    <span>HORAIRES</span>
+                        <i class="icon flaticon-uniE907"></i>
+                        <span>HORAIRES</span>
+                    </div>
+                    <span id="ouvert">OUVERT : LUN. 14h - 18h,<br> MER. > DIM. 10h - 18h. FERMÉ LE <br> MARDI.<br> TARIF PLEIN 7 € /TARIF RÉDUIT 4 €</span>
                 </div>
-                <span id="ouvert">OUVERT : LUN. 14h - 18h,<br> MER. > DIM. 10h - 18h. FERMÉ LE <br> MARDI.<br> TARIF PLEIN 7 € /TARIF RÉDUIT 4 €</span>
-            </div>
 
-            <div id="adresse">
+                <div id="adresse">
 
-                <i class="icon flaticon-uniE91E"></i>
-                <span>PLACE DE LA RÉPUBLIQUE 59000 LILLE</span>
+                    <i class="icon flaticon-uniE91E"></i>
+                    <span>PLACE DE LA RÉPUBLIQUE 59000 LILLE</span>
 
-            </div>
+                </div>
 
-            <a href="">
-                <i class="icon flaticon-uniE921"></i>
-                <span>MUSÉE PRIVÉ</span>
-            </a>
+                <a href="">
+                    <i class="icon flaticon-uniE921"></i>
+                    <span>MUSÉE PRIVÉ</span>
+                </a>
 
-            <a href="#">
-                <i class="icon flaticon-uniE927"></i>
-                <span>PRESSE</span>
-            </a>
+                <a href="#">
+                    <i class="icon flaticon-uniE927"></i>
+                    <span>PRESSE</span>
+                </a>
 
-            <a href="#">
-                <i class="icon flaticon-uniE92B"></i>
-                <span>NOUS CONTACTER</span>
-            </a>
+                <a href="#">
+                    <i class="icon flaticon-uniE92B"></i>
+                    <span>NOUS CONTACTER</span>
+                </a>
 
-            <a href="#" class="utilites">
+                <a href="#" class="utilites">
   MENTIONS LÉGALES
 </a>
 
-            <a href="#" class="utilites">
+                <a href="#" class="utilites">
   LIENS
 </a>
 
-            <a href="#" class="utilites">
+                <a href="#" class="utilites">
   PLANS DE SITE
 </a>
 
@@ -310,21 +348,110 @@
 
 
 
-        </aside>
+            </aside>
 
-        <aside class="applissocial">
-            <a href="#"><i class="icon flaticon-uniE934"></i></a>
-            <a href="#"><i class="icon flaticon-uniE93A"></i></a>
-            <a href="#"><i class="icon flaticon-uniE91C"></i></a>
-            <a href="#"><i class="icon flaticon-uniE93C"></i></a>
-            <a href="#"><i class="icon flaticon-uniE936"></i></a>
+            <aside class="applissocial">
+                <a href="#"><i class="icon flaticon-uniE934"></i></a>
+                <a href="#"><i class="icon flaticon-uniE93A"></i></a>
+                <a href="#"><i class="icon flaticon-uniE91C"></i></a>
+                <a href="#"><i class="icon flaticon-uniE93C"></i></a>
+                <a href="#"><i class="icon flaticon-uniE936"></i></a>
 
 
-        </aside>
+            </aside>
 
-    </article>
+        </article>
 
-</footer>
+        <article class="footerdeskonly">
+            <aside class="infospratiques">
+                <i class="fa fa-info" aria-hidden="true"></i>
+                <a href="#">
+                  <a href="#">
+                <h5>INFOS PRATIQUES</h5>
+                </a>
+                <span id="ouvert">OUVERT : LUN. 14h - 18h,<br> MER. > DIM. 10h - 18h. FERMÉ LE <br> MARDI.<br> TARIF PLEIN 7 € /TARIF RÉDUIT 4 €</span>
+            </aside>
+
+            <aside class="museeprive">
+                <i class="icon flaticon-uniE921"></i>
+                <a href="#">
+                <h5>MUSÉE PRIVÉ</h5>
+                </a>
+                <ul>
+                    <a href="#">
+                        <li>DEVENIR MÉCÈNE</li>
+                    </a>
+
+                    <a href="#">
+                        <li>SOUTENIR UN PROJET</li>
+                    </a>
+
+                    <a href="#">
+                        <li>ORGANISER UN ÉVÈNEMENT</li>
+                    </a>
+
+                    <a href="#">
+                        <li>ADHÉRER</li>
+                    </a>
+                </ul>
+
+            </aside>
+
+            <aside class="presse">
+                <i class="icon flaticon-uniE927"></i>
+                <a href="#">
+                <h5>PRESSE</h5>
+                </a>
+                <ul>
+                    <a href="#">
+                        <li>DOSSIER DE PRESSE</li>
+                    </a>
+
+                    <a href="#">
+                        <li>PHOTOTHÈQUE</li>
+                    </a>
+                </ul>
+
+
+            </aside>
+
+            <aside class="followers">
+                <i class="icon flaticon-uniE927"></i>
+                <h5>SUIVEZ-NOUS</h5>
+                <p>SUR LES RÉSEAUX SOCIAUX</p>
+                <div class="">
+
+                <a href="#"><i class="icon flaticon-uniE934"></i></a>
+                <a href="#"><i class="icon flaticon-uniE93A"></i></a>
+                <a href="#"><i class="icon flaticon-uniE91C"></i></a>
+                <a href="#"><i class="icon flaticon-uniE93C"></i></a>
+                <a href="#"><i class="icon flaticon-uniE936"></i></a>
+                </div>
+
+
+            </aside>
+        </article>
+
+        <div class="linefooter ">
+          <a href="#">
+            <i class="icon flaticon-uniE92B"></i>
+            <p>Nous contacter</p>
+          </a>
+
+          <a href="#">
+            Mentions légales
+          </a>
+
+          <a href="#">
+            Liens
+          </a>
+
+          <a href="#">
+            Plan du site
+          </a>
+        </div>
+
+    </footer>
 
 
     <!-- END OF YOUNES -->
