@@ -540,6 +540,56 @@ a:hover {
     color: black;
 }
 
+/* Start Aaron */
+/* Start All */
+  .w100 {
+    width: 100%;
+    margin: 00;
+  }
+
+  .no-phone {
+    display: none;
+  }
+/* End All */
+
+/* Start Agenda */
+.flaticon-uniE901 {
+  font-size: 37.5px;
+}
+
+.fig {
+  width: 100%;
+  height: 274px;
+  margin: 0;
+  margin-top: 25px;
+}
+
+.fig img {
+  width: 100%;
+  height: 100%;
+}
+
+.h2-1 {
+  font-size: 14px;
+}
+
+.select-1 {
+  margin: 20px;  
+  border: 5px black solid;
+}
+
+.actu-list-agenda {
+  padding-left: 27.5px;
+  padding-right: 27.5px;
+  font-family: "novecento_widenormal";
+}
+
+.font-33px {
+  font-size: 16px;
+}
+
+.font-26px {
+  font-size: 12px;
 .actus a:hover {
     text-decoration: none;
     color: #D8383F;
@@ -960,9 +1010,6 @@ a .icon:hover {
     }
 }
 
-
-}
-
 /*END OF YOUNESS*/
 
 /*KEVIN*/
@@ -1224,120 +1271,142 @@ a .icon:hover {
 
 /*END OF KEVIN*/
 
+
 /* Start Aaron */
-
 /* Start All */
-.w100 {
+  .w100 {
     width: 100%;
-    margin: 0px;
-}
-.container-fluid .row figure {
-    min-height: 0px;
-}
+    margin: 00;
+  }
 
+  .no-phone {
+    display: none;
+  }
 /* End All */
 
 /* Start Agenda */
 .flaticon-uniE901 {
-    font-size: 37.5px;
+  font-size: 37.5px;
 }
+
 .fig {
-    width: 100%;
-    height: 274px;
-    margin: 0;
+  width: 100%;
+  height: 274px;
+  margin: 0;
+  margin-top: 25px;
 }
+
 .fig img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
+
 .h2-1 {
-    font-size: 14px;
+  font-size: 14px;
 }
+
 .select-1 {
-    margin: 20px;
-    border: 5px black solid;
+  margin: 20px;  
+  border: 5px black solid;
 }
+
 .actu-list-agenda {
-    padding-left: 55px;
-    padding-right: 55px;
+  padding-left: 27.5px;
+  padding-right: 27.5px;
+  font-family: "novecento_widenormal";
 }
+
 .font-33px {
-    font-size: 33px;
+  font-size: 16px;
 }
+
 .font-26px {
-    font-size: 26px;
+  font-size: 12px;
+  font-family: "open_sansbold";
 }
+
 .violet {
-    color: #D3336C;
+  color: #D3336C;
 }
 
-/* End Agenda */
+.rose {
+  color: #935297;
+}
 
+.button-agenda {
+  border: #1D1D1E 3px solid;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  color: #1D1D1E;
+  font-family: "bikobold";
+  font-size: 18px;
+  padding-left: 15px;
+  padding-right: 10px;
+  min-height: 43px;
+  width: auto;
+
+}
+
+.button-agenda:hover {
+  border-color: #DA4249;
+  color: #DA4249;
+  text-decoration: none;
+}
+
+@media (min-width:768px) {
+  .font-33px {
+    font-size: 33px;
+  }
+
+  .font-26px {
+    font-size: 26px;
+  }
+
+  .button-agenda {
+    font-size: 36px;
+    border-width: 4px;
+  }
+
+  .no-phone {
+    display: none;
+  }
+}
+
+@media (min-width:1280px) {
+  .flaticon-uniE901 {
+    font-size: 75px;
+  }
+  
+  .h2-1  {
+    font-size: 24px;
+  }
+  
+  .select-agenda {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .div-agenda {
+    margin: 25px 15em;
+    display: flex;
+    justify-content: center;
+  }
+
+  .no-phone {
+    display: block;
+  }
+
+  .border-desktop {
+    border-top: solid 3px #D3336C;
+  }
+}
+/* End Agenda */ 
 /* End Aaron */
 
 /* ==========================================================================
-=======
-}
-
-/*END OF KEVIN*/
-
-/* Start Aaron */
-
-/* Start All */
-.w100 {
-    width: 100%;
-    margin: 0px;
-}
-.fa-caret-down {
-    color: black;
-}
-.triangle {
-    color: white;
-    font-size: 16px;
-}
-
-/* End All */
-
-/* Start Agenda */
-.flaticon-uniE901 {
-    font-size: 37.5px;
-}
-.fig {
-    width: 100%;
-    height: 274px;
-    margin: 0;
-}
-.fig img {
-    width: 100%;
-    height: 100%;
-}
-.h2-1 {
-    font-size: 14px;
-}
-.select-1 {
-    margin: 20px;
-    border: 5px black solid;
-}
-.actu-list-agenda {
-    padding-left: 55px;
-    padding-right: 55px;
-}
-.font-33px {
-    font-size: 33px;
-}
-.font-26px {
-    font-size: 26px;
-}
-.violet {
-    color: #D3336C;
-}
-
-/* End Agenda */
-
-/* End Aaron */
-
-/* ==========================================================================
->>>>>>> b96fd876f6ad0b93f260d4eb9d9eea6376e8e79c
    Helper classes
    ========================================================================== */
 
